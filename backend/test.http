@@ -1,0 +1,62 @@
+http://localhost:3000/block-number
+
+###
+
+http://localhost:3000/chain-social/user/0x9c0D4EC32821BC7802233614eF26C8c658cbB603
+
+###
+
+http://localhost:3000/chain-social/post/1
+###
+POST http://localhost:3000/chain-social/confirm/create-post
+Content-Type: application/json
+
+{
+  "transactionHash": "0x0ea1eedc6dab1320e523c15abc17613bb92d7ac04ce12eaa93b3ec6772268864"
+}
+###
+GET http://localhost:3000/data/posts-with-offset-and-limit/0/20
+###
+POST http://localhost:3000/chain-social/simulate/like-post
+Content-Type: application/json
+
+{
+  "postId": 1
+}
+###
+GET http://localhost:3000/data/post/400
+###
+GET http://localhost:3000/data/user-posts/0xC7A0c405DF55943E37d76B1E3c67FdD6518b26f3
+###
+POST http://localhost:3000/chain-social/simulate/create-post
+Content-Type: application/json
+
+{
+  "content": "Hello, world!",
+  "userAddress": "0x4c2e0165ca1123608cff84f7805b6c57be9c3813"
+}
+###
+GET http://localhost:3000/blockchain/token-info/0x0F0BDEbF0F83cD1EE3974779Bcb7315f9808c714
+###
+POST http://localhost:3000/transaction/trade
+Content-Type: application/json
+
+{
+  "side": "buy",
+  "amount": 1,
+  "token": "0x0F0BDEbF0F83cD1EE3974779Bcb7315f9808c714",
+  "user": "0x4c2e0165ca1123608cff84f7805b6c57be9c3813",
+  "decimals": 18
+}
+###
+GET http://localhost:3000/data/following/0x4c2E0165CA1123608CFf84f7805B6C57Be9C3813
+###
+POST http://localhost:3000/chain-social/simulate/unfollow-user
+Content-Type: application/json
+
+{
+  "userAddress": "0x6d12ac7A0cCcB9deC218C832e7c6De4CCe8B9d3c",
+  "user": "0x4c2E0165CA1123608CFf84f7805B6C57Be9C3813"
+}
+###
+GET http://localhost:3000/data/following-posts/0x4c2E0165CA1123608CFf84f7805B6C57Be9C3813
