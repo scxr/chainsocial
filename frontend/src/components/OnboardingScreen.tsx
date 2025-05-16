@@ -203,7 +203,7 @@ export function OnboardingScreen() {
           <div>
             Successfully created account! 
             <a 
-              href={`https://explorer.monad.network/tx/${txHash}`} 
+              href={`https://xpc.tamsa.io/tx/${txHash}`} 
               target="_blank" 
               rel="noopener noreferrer"
               style={{ marginLeft: '5px', color: '#4caf50', textDecoration: 'underline' }}
@@ -282,7 +282,7 @@ export function OnboardingScreen() {
           
           <div className={styles.infoRow}>
             <span className={styles.label}>Balance:</span>
-            <span className={styles.value}>{balance} MONAD</span>
+            <span className={styles.value}>{balance} XPT</span>
           </div>
         </div>
 
@@ -290,7 +290,7 @@ export function OnboardingScreen() {
           <div className={styles.depositMessage}>
             <h3>Deposit Required</h3>
             <p>
-              You need to deposit at least {MIN_BALANCE} MONAD to your wallet to continue.
+              You need to deposit at least {MIN_BALANCE} XPT to your wallet to continue.
               This is required to interact with the platform.
             </p>
             <button className={styles.copyButton} onClick={() => {

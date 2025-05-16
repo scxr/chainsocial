@@ -82,7 +82,7 @@ async function main() {
                     value: AMOUNT_PER_WALLET,
                 });
                 
-                console.log(`Transaction sent with hash: ${hash} || https://monad-testnet.socialscan.io/tx/${hash}`);
+                console.log(`Transaction sent with hash: ${hash} || https://xpc.tamsa.io/tx/${hash}`);
                 await new Promise(resolve => setTimeout(resolve, 3000));
             } catch (error) {
                 console.error(`Error sending transaction to wallet`, error);

@@ -20,7 +20,7 @@ async function main() {
     });
     
     console.log("Contract verified successfully!");
-    console.log(`View on explorer: https://testnet.monadexplorer.com/address/${contractAddress}`);
+    console.log(`View on explorer: https://xpc.tamsa.io/address/${contractAddress}`);
   } catch (error) {
     console.error("Verification failed:", error);
   }

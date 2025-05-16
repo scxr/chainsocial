@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ChainSocial",
-  description: "A 100% Monad Social Network",
+  description: "A 100% X-Phere Social Network",
 };
 
 export default function RootLayout({

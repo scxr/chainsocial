@@ -67,7 +67,7 @@ export default function Home() {
           </h1>
           
           <p className={styles.subtitle}>
-            Join the next generation of social networking on Monad.
+            Join the next generation of social networking on X-Phere.
           </p>
 
           <div className={styles.authSection}>
@@ -81,7 +81,7 @@ export default function Home() {
           <div className={styles.features}>
             <div className={styles.featureCard}>
               <h3 className={styles.featureTitle}>Lightning Fast</h3>
-              <p className={styles.featureText}>Experience social at the speed of Monad.</p>
+              <p className={styles.featureText}>Experience social at the speed of X-Phere.</p>
             </div>
             <div className={styles.featureCard}>
               <h3 className={styles.featureTitle}>Decentralized</h3>
