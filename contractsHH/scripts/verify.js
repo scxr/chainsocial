@@ -20,7 +20,7 @@ async function main() {
     });
     
     console.log("Contract verified successfully!");
-    console.log(`View on explorer: https://xpc.tamsa.io/address/${contractAddress}`);
+    console.log(`View on explorer: https://xpt.tamsa.io/address/${contractAddress}`);
   } catch (error) {
     console.error("Verification failed:", error);
   }

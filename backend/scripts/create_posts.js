@@ -67,7 +67,7 @@ async function createPost(tweet, wallet) {
 
         const receipt = await publicClient.waitForTransactionReceipt({ hash });
         if (receipt.status === "success") {
-            console.log(`Post created for ${wallet.address} || txn: https://xpc.tamsa.io/tx/${hash}`);
+            console.log(`Post created for ${wallet.address} || txn: https://xpt.tamsa.io/tx/${hash}`);
  
         } else {
             console.error(`Failed to create post for ${wallet.address}`);

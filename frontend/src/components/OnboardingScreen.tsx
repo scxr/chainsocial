@@ -203,7 +203,7 @@ export function OnboardingScreen() {
           <div>
             Successfully created account! 
             <a 
-              href={`https://xpc.tamsa.io/tx/${txHash}`} 
+              href={`https://xpt.tamsa.io/tx/${txHash}`} 
               target="_blank" 
               rel="noopener noreferrer"
               style={{ marginLeft: '5px', color: '#4caf50', textDecoration: 'underline' }}

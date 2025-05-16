@@ -262,7 +262,7 @@ export function Dashboard() {
         <div>
           Successfully created post! 
           <a 
-            href={`https://xpc.tamsa.io/tx/${txHash}`} 
+            href={`https://xpt.tamsa.io/tx/${txHash}`} 
             target="_blank" 
             rel="noopener noreferrer"
             style={{ marginLeft: '5px', color: '#4caf50', textDecoration: 'underline' }}
@@ -420,7 +420,7 @@ export function Dashboard() {
         <div>
           Successfully purchased {purchaseAmount} MON tokens!
           <a 
-            href={`https://xpc.tamsa.io/tx/${txHash}`} 
+            href={`https://xpt.tamsa.io/tx/${txHash}`} 
             target="_blank"
             rel="noopener noreferrer"
             style={{ marginLeft: '5px', color: '#4caf50', textDecoration: 'underline' }}
@@ -640,7 +640,7 @@ export function Dashboard() {
                   {userData?.user?.username || 'nemo'}
                 </div>
                 <div className={styles.userAddress}>
-                  <a href={`https://xpc.tamsa.io/address/${activeWallet.address}`} target="_blank" rel="noopener noreferrer">{activeWallet ? `${activeWallet.address.substring(0, 6)}...${activeWallet.address.substring(activeWallet.address.length - 4)}` : '0xD4D...604B'}</a>
+                  <a href={`https://xpt.tamsa.io/address/${activeWallet.address}`} target="_blank" rel="noopener noreferrer">{activeWallet ? `${activeWallet.address.substring(0, 6)}...${activeWallet.address.substring(activeWallet.address.length - 4)}` : '0xD4D...604B'}</a>
                 </div>
               </div>
             </div>
