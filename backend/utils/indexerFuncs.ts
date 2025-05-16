@@ -99,8 +99,7 @@ export async function getPostsWithOffsetAndLimit(offset: number, limit: number) 
         console.log(`Time taken: ${Date.now() - start}ms`);
         return postsWithUsers;
     } catch (error) {
-        console.error('Error in getPostsWithOffsetAndLimit:', error);
-        throw error;
+        return [];
     }
 }
 
