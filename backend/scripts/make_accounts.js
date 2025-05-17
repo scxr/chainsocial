@@ -70,7 +70,7 @@ async function createAccount(wallet, username) {
             address: CHAIN_SOCIAL_ADDRESS,
             abi: ChainSocialABI,
             functionName: "createUser",
-            args: [username, "test account", "https://placeholder.com"],
+            args: [username, "test account", "https://nemo.mypinata.cloud/ipfs/QmQfXRk7gy2WYx5y23XRb6CLZwF3LRoiSQ2vr2DY9oLPYJ"],
             account: acc,
         });
         

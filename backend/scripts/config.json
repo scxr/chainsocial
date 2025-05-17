@@ -1,46 +1,64 @@
 {
   "wallets": [
     {
-      "address": "0xC7A0c405DF55943E37d76B1E3c67FdD6518b26f3",
-      "private_key": "0dfd456b8f0ebb0cef0f39f2a1e82f5df5f1e89802db6d50ea6b80fd804a2da8"
+      "address": "0xc7FcF5d0c49C598ebA40a290eF1D8a1EcD7fd88c",
+      "private_key": "0x4f5fbb2cd92f0cdafcc368bbd68632d50dd714cd9261dd89b7ea94907bdfbed8"
     },
     {
-      "address": "0x9A54a612e01303aC16fe3573Def52bf1A6132D3d",
-      "private_key": "93efee3a96b07620f943fbf7413be3e2ed1030744391be051d237ad510e01020"
+      "address": "0x882610568BF01a546ea1bb7d03452c8afc3CB6bb",
+      "private_key": "0x31d9c2cf99d91d2603507d6f031e42d265672ee695f6592cc9a43f3bc6da426b"
     },
     {
-      "address": "0xb45186bFaA28179Ea3987D365E26324297beA815",
-      "private_key": "9ed7706ce2b80d3354c045eb4a5e777f2ceba4e726cff10998a2ac8360c70b05"
+      "address": "0x067c8669B72769dBA38E002fB0a2bd1154f76Ae8",
+      "private_key": "0x3fc4df31a6bc4f0106211b1ac5c10b784f8bd192a3670a6bf500f8b33b4b1910"
     },
     {
-      "address": "0x93055922A1Ec2e39178062A48400Bd85a0a3DF47",
-      "private_key": "0x3731303345d5b11480bf68cb7c3c366faa7593b65f9a66dc4a29f91577007c44"
+      "address": "0x40987d7AB855E923251Def7A969d610583bEdC71",
+      "private_key": "0xf5eacf112c64c32d4a545f411d6cc618c3f92848e2f01f633ec076c7e00eaff9"
     },
     {
-      "address": "0x428143F9867a3D0206fB51709f53A332DeA77D4F",
-      "private_key": "0x34a906a305678750be0df86ae96c0063842f764beac8553741ec99306e8852e2"
+      "address": "0x0E8E7d834B20E5baB1862FBEC32b1362939ac71d",
+      "private_key": "0xca1a796b2184292bcd62229da135da53ae68bd7452df0cb73c73a2af84612a2c"
     },
     {
-      "address": "0x51B3245B3Bc82772BC2Fa38318Ce4724C54D2e85",
-      "private_key": "0x903b95a1d9372cf282f345e021eae3bfb8815c40d2db900d79bd80f03d396fb9"
+      "address": "0x25f3Bf76cc8E5A149EE700D3b6aC236bd9a9591C",
+      "private_key": "0xc6c6b43183a9201325e803615d8ad8fe47dbb8115fbee2ce6e0b9ca69f76e07f"
     },
     {
-      "address": "0x6d12ac7A0cCcB9deC218C832e7c6De4CCe8B9d3c",
-      "private_key": "0xe3e9654fb7834c1dd96a69ec94f407ac8bb34621d1b1fd8d21109053b62850f1"
+      "address": "0x6CFB6087123d8cBDB5752Bf483dc5Da149F1068E",
+      "private_key": "0x9d306e3e94e44615c90d981ddac529adbb75dafdf5e9cadc4be1adf29eafe19b"
     },
     {
-      "address": "0x45c3d263763555108FaF251F3e7ec00731751248",
-      "private_key": "0x59c24f26bc450e07b5be07ca4dcc5adc61dc6e6667ab0dec89cee97199422c28"
+      "address": "0xFCa83F775F82c927B9803bB7B821D462290FCe30",
+      "private_key": "0x5d469303c299023fb3de9da72b9edf94084cb7064b9f823b3feb102d3109b288"
     },
     {
-      "address": "0x4e6274427C06986003E4835038189633FD018C43",
-      "private_key": "0x06d5ee710c32f80a3bba057c980d69939628aca3118c1e5a1bcb988347944224"
+      "address": "0x5Bf78Bf83ED88406aF97C23fa306d448a7Dcbef1",
+      "private_key": "0x7902e03a2be37637e15508928411a5e8ce597d8de8fc43e9b4779d5f2c8188f5"
     },
     {
-      "address": "0x3cb258743f377D915c253A179063D8f79a80cB56",
-      "private_key": "0x0fd3492f6ee92a93a4066193f080c6d9fbcbce98509677123cecf143eb8f8fa2"
+      "address": "0x9BF5751542646474C5b31b9077AC4756fe6b2F1c",
+      "private_key": "0xcdb3561cd8e3d5bd6263d35dc2ce9e0b1233915328caf6d43b543e8572be48a7"
+    },
+    {
+      "address": "0x6173ec8a5a8EcaC58cF80c249c559Ec95E2D4b3A",
+      "private_key": "0x47f3fa9d5a09451627f72ddd8900cdaa34b917c0fd1854de7db308bd6fb8a4de"
+    },
+    {
+      "address": "0xC97bfBed176e3Fa07bc00B915e399584Da656952",
+      "private_key": "0x66bd5b53a61bca22d436874d84f4decd09c765698d55b1ba4bc79a029147c644"
+    },
+    {
+      "address": "0xa4A19759C93e426CeA69DE1BB7015Ef366A327C3",
+      "private_key": "0x3188bc55b0a30e3c51253eeee63423f6d629f5c3cc65901415104a30a1c3effc"
+    },
+    {
+      "address": "0x0fE0030e5300A31EB6D62874899E0DeC2a0b7231",
+      "private_key": "0x6cae993cbc261832be1a7e51788ce8f10ace9c9e036bb41cebe18ad708df807b"
+    },
+    {
+      "address": "0x57BAe374bE3AC9Ad55D6c681D328D5593361b2a7",
+      "private_key": "0x4ebe28d0f60f6af736c846adaaed1ed74441a8859528d719f18772600c613768"
     }
-    
-  ],
-  "tweets_db": "./scripts/filtered_tweets.txt"
+  ]
 }

@@ -27,8 +27,8 @@ let monad = {
     };
 
 
-const AMOUNT_PER_WALLET = parseEther("0.25");
-const PARENT_PK = "";
+const AMOUNT_PER_WALLET = parseEther("0.4");
+const PARENT_PK = "0x0dfd456b8f0ebb0cef0f39f2a1e82f5df5f1e89802db6d50ea6b80fd804a2da8";
 const parentAccount = privateKeyToAccount(PARENT_PK);
 
 // Create a wallet client for sending transactions

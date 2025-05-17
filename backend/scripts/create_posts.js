@@ -90,7 +90,7 @@ async function main() {
             console.log(`Creating post for ${wallet.address} with tweet: ${tweet}`);
             await createPost(tweet, wallet);
             console.log(`Waiting 5 seconds...`);
-            await new Promise(resolve => setTimeout(resolve, 2000));
+            await new Promise(resolve => setTimeout(resolve, 100));
             
             console.log(`--------------------------------`);
             console.log(`${j} / ${tweets.length}`);
